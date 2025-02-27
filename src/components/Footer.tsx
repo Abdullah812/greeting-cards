@@ -8,11 +8,11 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-center md:text-right">
-              جميع الحقوق محفوظة &copy; {new Date().getFullYear()} - بطاقات المعايدة
+              جميع الحقوق محفوظة &copy; {new Date().getFullYear()} -  بطاقات المعايدة مناسك المشاعر
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <span>صنع بكل</span>
+            <span>صنع بكل حب عبدالله مقيص</span>
             <Heart className="h-4 w-4 mx-1 text-red-500 fill-current" />
           </div>
         </div>
