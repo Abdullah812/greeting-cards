@@ -12,7 +12,7 @@ function App() {
   return (
     <CardProvider>
       <Router>
-        <div className="min-h-screen flex flex-col bg-gradient-to-br from-purple-50 to-pink-50 text-right" dir="rtl">
+        <div className="min-h-screen flex flex-col bg-gradient-to-br from-amber-50 to-yellow-100 text-right" dir="rtl">
           <Header />
           <main className="flex-grow container mx-auto px-4 py-8">
             <Routes>
