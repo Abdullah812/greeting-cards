@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles } from 'lucide-react';
+import logo from '../images/الشعار.png';
 
 const Header: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 text-2xl font-bold">
           <img 
-            src="src/images/الشعار.png" 
+            src={logo}
             alt="شعار مناسك المشاعر" 
             className="h-10 w-auto"
           />
